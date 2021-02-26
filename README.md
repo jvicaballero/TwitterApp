@@ -40,8 +40,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Working with the Twitter API was a little hard to follow, only the portion of the DOCS where they state what each term did (I.e since_id) was what I understood the most. Setup of the Twitter features on top of the previous features we implemented before was a little abstract, but I was able to complete it by following along the video. Overall Reading docs to implement these new features is still quite a challenge for me. 
 
+Also! Infinite pagination does work, but there is a limit to how many times I can do so. After a few scrolls, I get an error that causes the API request to crash, stating that "The Rate Limit Exceeded". I suspect this is due to the fact that I'm using a public API that others have also used.
 ## Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
